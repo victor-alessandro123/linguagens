@@ -41,4 +41,4 @@ O site é compatível com todos os navegadores modernos, incluindo:
 
 ## Contribuição
 
-Sinta-se à vontade para contribuir com melhorias ou correções através de pull requests. 
+Sinta-se à vontade para contribuir com melhorias ou correções através de pull requests.
