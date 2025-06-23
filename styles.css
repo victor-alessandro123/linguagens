@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.language-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.language-card:hover {
+    transform: translateY(-5px);
+}
+
+.language-card h2 {
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.language-content {
+    padding: 2rem;
+}
+
+.language-info h3 {
+    color: #2c3e50;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+.language-info p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.language-info ul {
+    list-style-position: inside;
+    margin-left: 1rem;
+}
+
+.language-info li {
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #2c3e50;
+    color: white;
+    margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 3rem 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    .language-card h2 {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .language-content {
+        padding: 1.5rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.language-card {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Custom colors for each language card */
+#p5js h2 {
+    background: linear-gradient(135deg, #ED225D, #FF6B6B);
+}
+
+#javascript h2 {
+    background: linear-gradient(135deg, #F7DF1E, #F0DB4F);
+    color: #000;
+}
+
+#python h2 {
+    background: linear-gradient(135deg, #306998, #4B8BBE);
+}
+
+#csharp h2 {
+    background: linear-gradient(135deg, #68217A, #9B4993);
+}
+
+#java h2 {
+    background: linear-gradient(135deg, #007396, #5382A1);
+} 
